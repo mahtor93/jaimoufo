@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html class="bg-html2" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./img/ico.ico">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="./node_modules/three/build/three.min.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <!--
+    
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+            crossorigin="anonymous"></script>
+    
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        -->
+
+
+
+
+    <!--Tipografias-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
+    <title style="text-align:center;">Banda</title>
+
+    <!-- Powered by Mario Tornería Web Dev & Software Design  
+            IG: @creador.de.mundos Mail: mh.torneria@gmail.com -->
+</head>
+
+<body id="body-touch" style="font-family: 'Macondo', cursive;font-size: large;color:#fff">
+
+    <section class="pb-5">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark"
+            style="background-color:#280224;box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);;" role="navigation">
+            <div class="container">
+                <a class="navbar-brand" href="index.html#primero"><img src="./img/logo_icon.png" height="50%"
+                        width="50%"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="navbar-link link-dark ps-2"
+                                href="https://open.spotify.com/artist/2xr3Y2khGq9lCAMBROKyrA?si=zV9nV0lJTje27L0Je1mTfg"
+                                target="_blank">
+                                <i class="bi bi-spotify" style="font-size:30px;color:#fff;"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="navbar-link link-dark ps-2" href="https://www.youtube.com/@jaimomorales2569"
+                                target="_blank">
+                                <i class="bi bi-youtube" style="font-size: 30px;color:#fff;"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="navbar-link link-dark ps-2" href="https://www.instagram.com/jaimoufo/"
+                                target="_blank">
+                                <i class="bi bi-instagram" style="font-size: 30px;color:#fff;"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="navbar-link link-dark ps-2" href="https://wa.me/56977761947" target="_blank">
+                                <i class="bi bi-whatsapp" style="font-size: 30px;color:#fff;"></i>
+                            </a>
+                        </li>
+                        <!---
+                        <li class="nav-item">
+                            <a class="navbar-link link-dark ps-2" href="#contacto">
+                                <i class="bi bi-envelope-at" style="font-size: 30px;color:#ffc107;"></i>
+                            </a>
+                        </li>-->
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+<!--Banda e Integrantes-->
+    <div class="container pt-5 pb-5">
+        <div class="row p-sm-3 pt-3 row2" style="display:flex;justify-content:center;align-items:center;">
+            <img src="./img/separator1.png" style="width:40%;height:auto;" alt="------------">
+            <h1 style="text-align:center;">Banda</h1>
+            <div class="row pt-sm-3" style="display:flex;justify-content:center;align-items:center;">
+                <div class="col-sm-10">
+                    <img src="./img/Banda/EnVivo/VIC_6488.jpg" alt="Banda" style="width:100%;height:auto;">
+                    <p class="pt-3">
+                        Cruzando letras punzantes, el proyecto artístico JaimoUfo desarrolla una cuidada puesta en
+                        escena, en donde música, visualidad y danza se conjugan a partir de ritmos urbanos y melodías
+                        folclóricas.
+                    </p>
+                    <div class="row-sm-5 pb-5" style="display:flex;justify-content:right;align-items:right;">
+                        <button onclick="location.href='#reqtec'" type="button"
+                            class="btn btn-outline-light">Requerimientos Técnicos</button>
+                    </div>
+
+                </div>
+
+                <div class="row-sm-10 pt-5" style="display:flex;justify-content:center;align-items:center;">
+                    <img src="./img/bottom1.png" style="width: 50%;height: 50%; scale: 30%;" alt="">
+                    <h1 class="pt-3" style="display:flex;justify-content:center;align-items:center;">Integrantes</h1>
+                    <img src="./img/bottom2.png" style="width: 50%;height: 50%; scale: 30%;" alt="">
+                </div>
+
+
+                <div class="col-sm-10">
+                    <div class="row pt-sm-5"><!--Personaje 1-->
+                        <div class="col-sm-6" style="display:flex;justify-content:center;align-items:center;"><img
+                                src="./img/Banda/AngelLopez.jpg" style="width: 80%;height: auto;" alt=""></div>
+                        <!--Foto-->
+                        <div class="col-sm-6 pt-3">
+                            <h1 style="display:flex;justify-content:center;align-items:center;">Angel López</h1>
+                            <!--Nombre-->
+                            <p>Músico guitarrista, intérprete de diversos estilos y compositor para bandas y teatro. Con
+                                estudios formales en "Conservatorio Laurencia Contreras de la UBB" y "Surco música
+                                popular".</p><!--Descripción-->
+                        </div>
+                    </div>
+
+                    <div class="row pt-sm-5 pt-3"><!--Personaje 2-->
+                        <div class="col-sm-6" style="display:flex;justify-content:center;align-items:center;"><img
+                                src="./img/Banda/JoseMoncada.jpg" style="width: 80%;height: auto;" alt=""></div>
+                        <!--Foto-->
+                        <div class="col-sm-6 pt-3">
+                            <h1 style="display:flex;justify-content:center;align-items:center;">José Mondaca</h1>
+                            <!--Nombre-->
+                            <p>Jota Moncada, negrajota Músico; baterista/percusionista, estudiante de pedagogía en
+                                Educación Musical, nacido en Concepción, Chile.
+                                Basta experiencia en escenarios y festivales de renombre dentro del Gran Concepción y a
+                                lo largo de Chile.</p><!--Descripción-->
+                        </div>
+                    </div>
+
+                    <div class="row pt-sm-5 pt-3"><!--Personaje 3-->
+                        <div class="col-sm-6" style="display:flex;justify-content:center;align-items:center;"><img
+                                src="./img/Banda/OliviaCornejo.jpg" style="width: 80%;height: auto;" alt=""></div>
+                        <!--Foto-->
+                        <div class="col-sm-6 pt-3">
+                            <h1 style="display:flex;justify-content:center;align-items:center;">Olivia Cornejo</h1>
+                            <!--Nombre-->
+                            <p>Olivia Marina. Es artista escénica, bailarina y psicóloga, originaria de Concepción. Hace
+                                8 años se desenvuelve como intérprete, participando de festivales y encuentros a lo
+                                largo de Chile, como también en Argentina, Brasil y Colombia.</p><!--Descripción-->
+                        </div>
+                    </div>
+
+                    <div class="row pt-sm-5 pt-3"><!--Personaje 4-->
+                        <div class="col-sm-6" style="display:flex;justify-content:center;align-items:center;"><img
+                                src="./img/Banda/OscarAravena.jpg" style="width: 80%;height: auto;" alt=""></div>
+                        <!--Foto-->
+                        <div class="col-sm-6 pt-3">
+                            <h1 style="display:flex;justify-content:center;align-items:center;">Oscar Aravena</h1>
+                            <p>Músico profesional, egresado en licenciatura en artes, con mención en interpretación
+                                musical
+                                en flauta traversa. Compositor, escritor.</p>
+                        </div><!--Descripción-->
+                    </div>
+
+
+                    <div class="row pt-sm-5 pt-3"><!--Personaje 5-->
+                        <div class="col-sm-6" style="display:flex;justify-content:center;align-items:center;"><img
+                                src="./img/Banda/MarceloAravena.jpg" style="width: 80%;height: auto;" alt=""></div>
+                        <!--Foto-->
+                        <div class="col-sm-6 pt-3">
+                            <h1 style="display:flex;justify-content:center;align-items:center;">Marcelo Aravena</h1>
+                            <!--Nombre-->
+                            <p>Marcelo Aravena Valdes(Chelo) Músico autodidacta, compositor, escritor, intrumentos :
+                                charango, flauta dulce, zampoña,quena, caval, bongo.
+                                Gira internacional Europa Central, Europa del este, Turquia, U.K.</p><!--Descripción-->
+                        </div>
+                    </div>
+
+                    <div class="row pt-sm-5 pt-3"><!--Personaje 6-->
+                        <div class="col-sm-6" style="display:flex;justify-content:center;align-items:center;"><img
+                                src="./img/Banda/MiguelAravena.jpg" style="width: 80%;height: auto;" alt=""></div>
+                        <!--Foto-->
+                        <div class="col-sm-6 pt-3">
+                            <h1 style="display:flex;justify-content:center;align-items:center;">Miguel Aravena</h1>
+                            <!--Nombre-->
+                            <p>Músico de la octava region, con sus origenes en el sector rural de santa juana. Estilos
+                                musicales ( ska, reggae, hip-hop, soul, funk, entre otros ) y formando varias bandas,
+                                las que lo llevaron a los escenarios mas importantes de las region, por ejemplo R.E.C (
+                                2 veces ) y teatro concepcion.</p><!--Descripción-->
+                        </div>
+                    </div>
+
+                    <div class="row pt-sm-5 pt-3"><!--Personaje 7-->
+                        <div class="col-sm-6" style="display:flex;justify-content:center;align-items:center;">
+                        <img src="./img/Banda/CamiloSilva.jpg" style="width: 80%;height: auto;" alt="">
+                        </div><!--Foto-->
+                        <div class="col-sm-6 pt-3">
+                            <h1 style="display:flex;justify-content:center;align-items:center;">Camilo Silva</h1>
+                            <!--Nombre-->
+                            <p>Músico especializado en Bajo eléctrico, con estudios en Academia de bajistas de Pablo Carvajal, se ha desempeñado durante 7 años en diversos proyectos musicales y culturales de Concepción.
+                                Ha participado en la grabación de material de estudio de 5 discos originales.
+                                Actualmente, forma parte de agrupaciones de estilos variados, pasando por rock, pop, jazz, fusión, entre otros.</p><!--Descripción-->
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+<!--Fotos en Vivo-->
+    <div class="container pt-5 pb-5">
+        <div class="row p-sm-3 pt-3 row2" style="display:flex;justify-content:center;align-items:center;">
+            <img src="./img/separator1.png" style="width:40%;height:auto;" alt="------------">
+            <h1 style="text-align:center;">En Vivo</h1>
+            <div class="col-sm-10 pb-5">
+                <img class="pt-3" src="./img/Banda/EnVivo/envivo_8.jpg" style="width: 100%;height: auto;" alt="">
+                <img class="pt-3" src="./img/Banda/EnVivo/envivo_1.jpg" style="width: 100%;height: auto;" alt="">
+                <img class="pt-3" src="./img/Banda/EnVivo/envivo_2_1.jpg" style="width: 100%;height: auto;" alt="">
+                <img class="pt-3" src="./img/Banda/EnVivo/envivo_2.jpeg" style="width: 100%;height: auto;" alt="">
+                <img class="pt-3" src="./img/Banda/EnVivo/envivo_3.jpg" style="width: 100%;height: auto;" alt="">
+                <img class="pt-3" src="./img/Banda/EnVivo/envivo_4.jpg" style="width: 100%;height: auto;" alt="">
+                <img class="pt-3" src="./img/Banda/EnVivo/envivo_5.jpg" style="width: 100%;height: auto;" alt="">
+                <img class="pt-3" src="./img/Banda/EnVivo/envivo_6.jpg" style="width: 100%;height: auto;" alt="">
+                <img class="pt-3" src="./img/Banda/EnVivo/envivo_7.jpg" style="width: 100%;height: auto;" alt="">
+            </div>
+        </div>
+    </div>
+<!--Arte y Flyers-->
+<div class="container pb-5">
+    <div class="row p-sm-3 pt-3 row2">
+        <img src="./img/separator1.png" style="width:40%;height:auto;" alt="------------">
+        <h1 style="text-align:center;">Coverarts & Flyers</h1>
+        <div class="col-sm-10 pb-5">
+            <div class="row">
+                <div class="col-sm-6 pt-3">
+                    <img src="./img/Banda/Arte/jaimoufo_marz.jpg" style="width: 100%;height: auto;"alt="">
+                </div>
+                <div class="col-sm-6 pt-3">
+                    <img src="./img/Banda/Arte/jaimoufo_mupun.jpg" style="width: 100%;height: auto;"alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 pt-3">
+                    <img src="./img/Banda/Arte/jaimoufo_internacional.png"style="width: 100%;height: auto;" alt="">
+                </div>
+                <div class="col-sm-6 pt-3">
+                    <img src="./img/Banda/Arte/jaimoufo_piedraroja.jpg"style="width: 100%;height: auto;" alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 pt-3">
+                    <img src="./img/Banda/Arte/jaimoufo_cuerpoterritorio_long.jpg" style="width: 100%;height: auto;"alt="">
+                </div>
+                <div class="col-sm-6 pt-3">
+                    <img src="./img/Banda/Arte/jaimoufo_Talca_long.jpg" style="width: 100%;height: auto;"alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Requisitos Técnicos-->
+    <div id="reqtec" class="pt-5"></div>
+    <div class="container pb-5">
+        <div class="row p-sm-3 pt-3 row2" style="display:flex;justify-content:center;align-items:center;">
+            <img src="./img/separator1.png" style="width:40%;height:auto;" alt="------------">
+            <h1 style="text-align:center;">Requerimientos Técnicos</h1>
+
+            <div class="row pt-sm-3" style="display:flex;justify-content:center;align-items:center;">
+                <div class="col-sm-10">
+                    <table class="table table-striped">
+                        <tr>
+                            <td><b>Vocalista Trompetista</b></td>
+                            <td>Microfono shure SM58<p>+ 1-Microfono shure Pga98h</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><b>Guitarrista Coros</b></td>
+                            <td>1- Cable XLR <p>+ 1- Microfono shure SM58</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><b>>Bajista Coros</b></td>
+                            <td>Amplificador de bajo/caja directa <p>+ 1- Microfono shure SM58</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><b>DJ</b></td>
+                            <td>Cable XLR x2 <p>+ 1- Alargador de corriente</p>
+                                <p>+ 1- Superficie (mesa)</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td><b>Flauta traversa Coros</b></td>
+                            <td>2- Microfono shure Pga98h o Microfono shure SM58 <p>+ 2- Microfono shure SM58</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><b>Percusionista</b></td>
+                            <td>5 SM 57 2- Micrófonos para las congas, 2- para los bongós y 1- para la cortina</td>
+                        </tr>
+                        <tr>
+                            <td><b>Baterista</b></td>
+                            <td>1- Microfono dinamico de bombo <p>+ 1- Microfono dinamico para caja</p>
+                                <p>2- Microfonos dinamicos para tom aereo y de piso</p>
+                                <p> + 2- Condensadores</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div class="row pt-sm-3 pb-3" style="display:flex;justify-content:center;align-items:center;">
+                Total de atriles 10 en escena.
+            </div>
+        </div>
+    </div>
+    <script defer src="./node_modules/script.js"></script>
+    <script src="./node_modules/script.js"></script>
+</body>
+
+<footer class="footer p-1" style="display: flex;align-items: center;">
+
+
+    <div class=" col-4">
+
+        Jaimo Ufo © 2023 All Rights Reserved
+
+    </div>
+
+
+
+
+</footer>
+
+
+</html>
